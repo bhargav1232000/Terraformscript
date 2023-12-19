@@ -1,0 +1,7 @@
+variable "var1"{
+default = "Bhargav"
+type=string
+}
+output "myvaroutput" {
+value="${var.var1}"
+}
